@@ -1,12 +1,10 @@
 name: Deploy and Merge to Main
 
-# Trigger the workflow on pushes to the main branch
 on:
   push:
     branches:
       - main
 
-# Define permissions required for workflow actions
 permissions:
   contents: write
 
@@ -15,24 +13,21 @@ jobs:
     name: Deploy to GitHub Pages and Merge to Main
     runs-on: ubuntu-latest
     steps:
-      # Check out the repository content
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-      # Set up Node.js environment
-      - uses: actions/setup-node@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 14 # Adjust the Node.js version as needed
           cache: yarn
 
-      # Install project dependencies
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      # Build the Docusaurus website
       - name: Build website
         run: yarn build
 
-      # Deploy the built site to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -41,9 +36,8 @@ jobs:
           user_name: github-actions[bot]
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
 
-      # Merge the gh-pages branch back into the main branch after successful deployment
       - name: Merge gh-pages to main
-        if: success() && github.ref == 'refs/heads/main' # Run only on successful deployment to main
+        if: success() && github.ref == 'refs/heads/main'
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@users.noreply.github.com"
