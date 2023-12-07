@@ -1,17 +1,14 @@
-name: Deploy and Merge to Main
+name: Build and Deploy Docs
 
 on:
   push:
     branches:
       - main
 
-permissions:
-  contents: write
-
 jobs:
-  deploy:
-    name: Deploy to GitHub Pages and Merge to Main
+  build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -19,29 +16,18 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 14 # Adjust the Node.js version as needed
-          cache: yarn
+          node-version: 14 # Use your desired Node.js version
 
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
-
-      - name: Build website
-        run: yarn build
+      - name: Install dependencies and build
+        run: |
+          cd docs # Change directory to where your Docusaurus project is located
+          yarn install
+          yarn build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          publish_dir: ./docs/build # Adjust if your build output path is different
           user_name: github-actions[bot]
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
-
-      - name: Merge gh-pages to main
-        if: success() && github.ref == 'refs/heads/main'
-        run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@users.noreply.github.com"
-
-          git checkout main
-          git merge --no-ff --no-edit gh-pages
-          git push origin main
