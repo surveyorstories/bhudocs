@@ -21,7 +21,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/intro"
           >
-            Bhukamatha Tutorial - 5min ⏱️
+            Bhukamatha Tutorial - 5min more min⏱️
           </Link>
         </div>
       </div>
