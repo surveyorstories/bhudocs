@@ -34,6 +34,7 @@ const config = {
     locales: ["en"],
   },
   plugins: [
+    "docusaurus-plugin-image-zoom",
     [
       "@docusaurus/plugin-ideal-image",
       {
