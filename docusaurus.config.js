@@ -33,6 +33,19 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
+  plugins: [
+    "plugin-image-zoom",
+    [
+      "@docusaurus/plugin-ideal-image",
+      {
+        quality: 70,
+        max: 1030, // max resized image's size.
+        min: 640, // min resized image's size. if original is lower, use that size.
+        steps: 2, // the max number of images generated between min and max (inclusive)
+        disableInDev: false,
+      },
+    ],
+  ],
 
   presets: [
     [
@@ -44,7 +57,7 @@ const config = {
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/surveyorstories",
+          editUrl: "https://github.com/surveyorstories/bhudocs",
         },
         blog: {
           showReadingTime: true,
