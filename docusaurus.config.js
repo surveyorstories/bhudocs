@@ -34,7 +34,7 @@ const config = {
     locales: ["en"],
   },
   plugins: [
-    "docusaurus-plugin-image-zoom",
+    require.resolve("docusaurus-plugin-image-zoom"),
     [
       "@docusaurus/plugin-ideal-image",
       {
@@ -42,7 +42,36 @@ const config = {
         max: 1030, // max resized image's size.
         min: 640, // min resized image's size. if original is lower, use that size.
         steps: 2, // the max number of images generated between min and max (inclusive)
-        disableInDev: false,
+        disableInDev: true,
+      },
+    ],
+
+    [
+      "@docusaurus/plugin-pwa",
+      {
+        debug: true,
+        offlineModeActivationStrategies: [
+          "appInstalled",
+          "standalone",
+          "queryString",
+        ],
+        pwaHead: [
+          {
+            tagName: "link",
+            rel: "icon",
+            href: "/img/192.png",
+          },
+          {
+            tagName: "link",
+            rel: "manifest",
+            href: "/manifest.json", // your PWA manifest
+          },
+          {
+            tagName: "meta",
+            name: "theme-color",
+            content: "rgb(37, 194, 160)",
+          },
+        ],
       },
     ],
   ],
@@ -81,7 +110,8 @@ const config = {
         title: "Surveyor stories",
         logo: {
           alt: "Surveyor stories",
-          src: "img/icon.webp",
+          src: "img/logo_light.svg",
+          srcDark: "img/logo_dark.svg",
         },
         items: [
           {
