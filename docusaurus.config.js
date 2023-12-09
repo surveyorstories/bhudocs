@@ -62,7 +62,7 @@ const config = {
             href: "img/192.png",
           },
           {
-            tagName: "manifest",
+            tagName: "link",
             rel: "manifest",
             href: "/manifest.json", // your PWA manifest
           },
