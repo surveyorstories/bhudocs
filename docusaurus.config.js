@@ -57,7 +57,7 @@ const config = {
         ],
         pwaHead: [
           {
-            tagName: "icon",
+            tagName: "link",
             rel: "icon",
             href: "img/192.png",
           },
