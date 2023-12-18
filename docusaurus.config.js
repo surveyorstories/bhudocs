@@ -120,6 +120,11 @@ const config = {
             position: "right",
             label: "Documentation",
           },
+          {
+            href: "/#faqs",
+            label: "Faq's",
+            position: "right",
+          },
           // { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/surveyorstories",
@@ -147,6 +152,11 @@ const config = {
                 label: "Telegram",
                 href: "https://t.me/surveyorstories",
               },
+              {
+                label: "Telegram Group",
+                href: "https://t.me/surveyor_stories",
+              },
+
               {
                 label: "YouTube",
                 href: "https://www.youtube.com/@surveyorstories",

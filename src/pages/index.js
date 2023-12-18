@@ -41,8 +41,12 @@ export default function Home() {
     >
       {/* <HomepageHeader /> */}
       <main className="home_main">
-        <WelcomeBlock />
-        <Accordion />
+        <section id="welcome">
+          <WelcomeBlock />
+        </section>
+        <section id="faqs">
+          <Accordion />
+        </section>
       </main>
     </Layout>
   );
