@@ -34,6 +34,11 @@ h3,
 h4 {
   font-family: "Montserrat";
 }
+
+p,
+a {
+  font-family: "Montserrat";
+}
 /* Hide the site name in the navbar */
 
 .navbar__title {
