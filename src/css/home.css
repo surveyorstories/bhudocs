@@ -40,6 +40,10 @@
     flex: 100%;
     max-width: 100%;
   }
+
+  .welcomeblock-container h1 {
+    font-size: 3rem;
+  }
 }
 
 .download-button {
@@ -205,6 +209,9 @@
 }
 
 @media (max-width: 575px) {
+  .welcomeblock-container h1 {
+    font-size: 1.7rem;
+  }
   .buttons-container {
     flex-direction: column;
   }
