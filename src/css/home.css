@@ -53,28 +53,39 @@
 }
 
 .dropdown-content {
+  border-radius: 8px;
+
   display: none;
-  position: absolute;
-  background-color: #040b1f;
+  position: relative;
+  background-color: #075f3d;
+
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
 .download-button:hover .dropdown-content {
-  display: block;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+
   z-index: 1;
 }
 
 .dropdown-content a {
-  color: black;
   padding: 12px 16px;
+  border-radius: 8px;
+
+  color: #74ffb3;
   text-decoration: none;
   display: block;
 }
 
 .dropdown-content a:hover {
+  border-radius: 12px;
+  border: #002bff;
   background-color: #f1f1f1;
+  color: #037737;
 }
 
 /* CSS */
