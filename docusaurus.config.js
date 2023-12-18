@@ -34,7 +34,7 @@ const config = {
     locales: ["en"],
   },
   plugins: [
-    require.resolve("docusaurus-plugin-image-zoom"),
+    "plugin-image-zoom",
     [
       "@docusaurus/plugin-ideal-image",
       {
