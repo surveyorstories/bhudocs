@@ -82,7 +82,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: "/",
+          routeBasePath: "/docs",
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -117,8 +117,8 @@ const config = {
           {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
-            position: "left",
-            label: "Tutorial",
+            position: "right",
+            label: "Documentation",
           },
           // { to: "/blog", label: "Blog", position: "left" },
           {
@@ -135,8 +135,8 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
-                to: "/",
+                label: "Documentation",
+                to: "/docs",
               },
             ],
           },
@@ -160,10 +160,10 @@ const config = {
           {
             title: "More",
             items: [
-              // {
-              //   label: "Blog",
-              //   to: "/blog",
-              // },
+              {
+                label: "Blog",
+                to: "/blog",
+              },
               {
                 label: "GitHub",
                 href: "https://github.com/surveyorstories",

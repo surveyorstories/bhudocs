@@ -1,0 +1,43 @@
+/* src/css/home.css */
+
+.homepage-container {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.homepage-container h1 {
+  font-size: 4rem;
+}
+.left-column {
+  flex: 1;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.left-column img {
+  max-width: 100%; /* Maximum width for SVG images */
+  max-height: 100%; /* Maximum height for SVG images */
+  width: 70%; /* Ensure responsiveness */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 10px;
+}
+
+.right-column {
+  flex: 1;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center content */
+  text-align: center;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .left-column,
+  .right-column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}

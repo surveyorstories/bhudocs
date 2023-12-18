@@ -49,7 +49,7 @@ html[data-theme="dark"] {
 }
 
 /* Accordion styles */
-faq {
+.faq {
   margin: 10px;
 }
 
@@ -60,6 +60,9 @@ faq {
   border-top-right-radius: 5px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px; */
+}
+.home_main {
+  margin: 2rem;
 }
 
 .accordion-header {
@@ -84,8 +87,9 @@ faq {
   display: block;
 }
 /* Add this CSS to center the title and accordion */
-.accordion-container {
-}
+/* .accordion-container {
+ 
+} */
 
 .faq-title {
   font-size: 24px;
@@ -94,20 +98,21 @@ faq {
 }
 
 .accordion {
-  max-width: auto; /* Adjust as needed */
+  /* Adjust as needed */
   margin: 0 auto;
 }
 /* CSS for smooth transitions */
 .accordion-content {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
+  transition: max-height 0.4s ease-out, opacity 0.4s ease-out;
   opacity: 0;
   padding: 0 10px;
+  margin: 0.2rem;
 }
 
 .accordion-content.open {
   max-height: 200px; /* Adjust the maximum height */
-  transition: max-height 0.5s ease-in, opacity 0.5s ease-in;
+  transition: max-height 0.4s ease-in, opacity 0.4s ease-in;
   opacity: 1;
 }
