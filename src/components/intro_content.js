@@ -1,5 +1,6 @@
 import React from "react";
 import DownloadButton from "./DownloadButton";
+import DynamicDownloadButton from "./DynamicDownloadButton";
 import DocumentationButton from "./DocumentationButton";
 import "../css/home.css"; // Import the CSS file
 
@@ -29,7 +30,7 @@ const WelcomeBlock = () => {
           </p>
           {/* Buttons below the paragraph */}
           <div className="buttons-container">
-            <DownloadButton />
+            <DynamicDownloadButton />
             <DocumentationButton />
           </div>
         </div>

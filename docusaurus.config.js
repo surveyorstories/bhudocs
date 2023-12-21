@@ -35,6 +35,7 @@ const config = {
   },
   plugins: [
     "plugin-image-zoom",
+    // require.resolve("docusaurus-plugin-image-zoom"),
     [
       "@docusaurus/plugin-ideal-image",
       {
@@ -92,7 +93,7 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/surveyorstories/bhukamathaweb",
+          editUrl: "https://github.com/surveyorstories/bhudocs",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -133,6 +134,16 @@ const config = {
           },
         ],
       },
+      // zoom: {
+      //   selector: ".markdown :not(em) > img",
+      //   config: {
+      //     // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+      //     background: {
+      //       light: "rgb(255, 255, 255)",
+      //       dark: "rgb(50, 50, 50)",
+      //     },
+      //   },
+      // },
       footer: {
         style: "dark",
         links: [
