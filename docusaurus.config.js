@@ -129,8 +129,10 @@ const config = {
           // { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/surveyorstories",
-            label: "GitHub",
+            // label: "GitHub",
             position: "right",
+            className: "header-github-link",
+            "aria-label": "GitHub repository",
           },
         ],
       },
