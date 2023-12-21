@@ -87,13 +87,13 @@ const config = {
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/surveyorstories/bhudocs/blob/main",
+          editUrl: "https://github.com/surveyorstories/bhudocs/edit/main",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/surveyorstories/bhudocs/blob/main",
+          editUrl: "https://github.com/surveyorstories/bhudocs/edit/main",
         },
         theme: {
           customCss: "./src/css/custom.css",
