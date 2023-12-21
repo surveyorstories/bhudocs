@@ -93,7 +93,7 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/surveyorstories/bhudocs",
+          editUrl: "https://github.com/surveyorstories/bhudocs/blob",
         },
         theme: {
           customCss: "./src/css/custom.css",
