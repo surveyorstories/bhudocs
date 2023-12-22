@@ -24,11 +24,11 @@ const DynamicDownloadButton = () => {
 
   return (
     <>
-      <button className="download-button" role="button">
+      <button className="download-button" role="button" aria-label="send email">
         Download
         <div className="dropdown-content">
           {downloadLink ? (
-            <a href={downloadLink} download>
+            <a aria-label="Latest Release" href={downloadLink} download>
               Latest Release
             </a>
           ) : (
