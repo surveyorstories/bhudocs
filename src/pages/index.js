@@ -40,6 +40,7 @@ export default function Home() {
       description="Description will go into a meta tag in <head />"
     >
       {/* <HomepageHeader /> */}
+      <div className="scroll"></div>
       <main className="home_main">
         <section id="welcome">
           <WelcomeBlock />

@@ -137,6 +137,18 @@ html[data-theme="dark"] {
 }
 .scroll {
   width: 100%;
-  height: 10px;
-  background-color: #1fa588;
+  height: 4px;
+  background-color: var(--ifm-color-primary-lighter);
+  position: sticky;
+  top: var(--ifm-navbar-height);
+  z-index: var(--ifm-z-index-fixed);
+  scale: 0 1;
+  animation: scroll linear;
+  animation-timeline: scroll();
+}
+
+@keyframes scroll {
+  to {
+    scale: 1 1;
+  }
 }

@@ -13,6 +13,7 @@ function App() {
       description="Description will go into a meta tag in <head />"
     >
       {/* <HomepageHeader /> */}
+      <div className="scroll"></div>
       <main className="home_main">
         <section id="Github_Releases" className="github_releases">
           <div className="releases_container">

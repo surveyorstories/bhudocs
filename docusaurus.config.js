@@ -14,12 +14,10 @@ const config = {
 
   // Set the production url of your site here
   url: "https://github.com",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+
   baseUrl: "/bhudocs",
   deploymentBranch: "gh-pages",
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
+
   organizationName: "surveyorstories", // Usually your GitHub org/user name.
   projectName: "bhukamathaweb", // Usually your repo name.
   trailingSlash: false,
@@ -106,7 +104,15 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/logo_light.svg",
+      // announcementBar: {
+      //   id: "support_us",
+      //   content:
+      //     'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+      //   backgroundColor: "#099f3d",
+      //   textColor: "#091E42",
+      //   isCloseable: false,
+      // },
       navbar: {
         title: "Surveyor stories",
         logo: {
@@ -176,7 +182,7 @@ const config = {
               },
               // {
               //   label: "Twitter",
-              //   href: "https://twitter.com/docusaurus",
+              //   href: "https://twitter.com/surveyorstories",
               // },
             ],
           },
