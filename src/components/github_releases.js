@@ -29,7 +29,7 @@ const GitHubReleases = ({ owner, repo }) => {
       </h2>
       {releases.length > 0 ? (
         <ul style={{ listStyle: "none", padding: 0 }}>
-          {releases.map((release) => (
+          {releases.map((release, index) => (
             <li
               key={release.id}
               style={{
@@ -37,9 +37,31 @@ const GitHubReleases = ({ owner, repo }) => {
                 borderRadius: "8px",
                 padding: "20px",
                 marginBottom: "20px",
+                position: "relative",
               }}
             >
-              <h2>{release.name}</h2>
+              <h2>
+                {release.name}
+                {index === 0 && (
+                  <span
+                    style={{
+                      marginLeft: "8px",
+                      fontSize: "12px",
+                      padding: "4px 8px",
+                      borderRadius: "7px",
+                      backgroundColor: "#2ea44f",
+                      color: "#ffffff",
+                      position: "relative",
+
+                      top: "-4px",
+                      right: "-12px",
+                      fontWeight: "bold",
+                    }}
+                  >
+                    Latest
+                  </span>
+                )}
+              </h2>
               <ReactMarkdown children={release.body} />
               <div style={{ marginTop: "20px" }}>
                 {release.assets.length > 0 && (
