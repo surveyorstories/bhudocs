@@ -105,14 +105,14 @@ const config = {
     ({
       // Replace with your project's social card
       image: "img/logo_light.svg",
-      // announcementBar: {
-      //   id: "support_us",
-      //   content:
-      //     'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
-      //   backgroundColor: "#099f3d",
-      //   textColor: "#091E42",
-      //   isCloseable: false,
-      // },
+      announcementBar: {
+        id: "support_us",
+        content:
+          'Are you intrested!. We are looking to revamp our docs, please fill  <a target="_blank" rel="noopener noreferrer" href="/contribution">this survey</a> to contribute',
+        backgroundColor: "#099f3d",
+        textColor: "#fff",
+        isCloseable: true,
+      },
       navbar: {
         title: "Surveyor stories",
         logo: {
