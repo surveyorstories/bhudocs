@@ -34,7 +34,7 @@ const DynamicDownloadButton = () => {
           ) : (
             <p>Loading...</p>
           )}
-          <a href="./404">Old Releases</a>
+          <a href="./releases">Old Releases</a>
           {/* Add more versions as needed */}
         </div>
       </button>
