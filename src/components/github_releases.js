@@ -90,7 +90,7 @@ const GitHubReleases = ({ owner, repo }) => {
                               textDecoration: "none",
                               marginRight: "10px",
                               marginBottom: "10px",
-                              fontSize: "14px", // Adjusted font size
+                              fontSize: "13px", // Adjusted font size
                             }}
                           >
                             {asset.name}
