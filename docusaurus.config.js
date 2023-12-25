@@ -108,7 +108,11 @@ const config = {
       announcementBar: {
         id: "support_us",
         content:
+<<<<<<< HEAD
           'Are you intrested!. We are looking to revamp our docs, please fill  <a target="_blank" rel="noopener noreferrer" href="/bhudocs/contribution">this survey</a> to contribute',
+=======
+          'Are you intrested!. We are looking to revamp our docs, please fill  <a target="_blank" rel="noopener noreferrer" href="/contribution">this survey</a> to contribute',
+>>>>>>> fc54ace921b9504a1fb3689b2ae3aa51a3f12460
         backgroundColor: "#099f3d",
         textColor: "#fff",
         isCloseable: true,
