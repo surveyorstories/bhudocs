@@ -67,6 +67,10 @@ html[data-theme="dark"] {
   --ifm-background-color: #000000;
 }
 
+.footer {
+  --ifm-footer-background-color: #181b23;
+}
+
 /* Accordion styles */
 .faq {
   margin: 10px;
