@@ -23,9 +23,8 @@ const WelcomeBlock = () => {
         <div>
           <h1>BHUKAMATHA</h1>
           <p>
-            Plugin developed as part of the AP Resurvey 2020 project. This
-            plugin simplifies the complex task of generating LPMs (Land Parcel
-            Maps) by automating the process and providing Better and efficient
+            This Plugin is designed to enhance your productivity in Ap Resurvey Project by simplifying the complex task of generating Maps  (Land Parcel
+            Maps,Village Maps, Stone Maps) by automating the process and providing Better and Efficient
             results.
           </p>
           {/* Buttons below the paragraph */}

@@ -13,32 +13,27 @@ const Accordion = () => {
 
   const accordionData = [
     {
-      question:
-        "Does Bhukamatha have an officially developed plugin? Should I pay anything for using Bhukamatha?",
+      question: "Does Bhukamatha have an officially developed plugin?",
       answer:
-        "No, Bhukamatha is developed by the SurveyorStories community and backed by Village surveyors; you don't need to pay anything for using it.",
+        "While Bhukamatha is a valuable tool, it's important to clarify that it wasn't officially developed. The official plugin for this purpose is SSLR. Bhukamatha, on the other hand, is a community-driven project created by SurveyorStories with the support of village surveyors",
     },
     {
       question: "Can I use Bhukamatha to generate LPMS?",
       answer:
-        "Yes, it also supports the Stone map from version 1.0.1 beta. It's up to you whether to use it or not.",
+        "While Bhukamatha supports generating LPMS and other map formats like Stone maps, Village maps, and PPMs, we strongly advise using the official SSLR plugin for this task. The decision ultimately rests with you, but SSLR is the officially recommended tool. ",
     },
     {
       question: "How would Bhukamatha prevent the misuse of data?",
       answer:
-        "Bhukamatha doesn't hold or provide any data. The complete data you processed lies on your PC. Hence, no one can make the LPMs unless they have the data.",
+        "Bhukamatha doesn't collect or store any data. This means all the processed information remains solely on your personal computer. Consequently, creating Land Parcel Maps(LPMs) using Bhukamatha necessitates possession of the original data, making it an offline",
     },
     {
       question:
-        "Is Team Bhukamatha was interested in Collaborate/ Contribution? ",
+        "Is Team Bhukamatha was interested in Collaboration/ Contribution? ",
       answer:
-        "We are happy to collaborate with you for building a better plugin. You can make a difference at Bhukamatha by contributing to new features, documentation, and portal updates.. you can reach us. at surveyorstories@gmail.com",
+        "We at the Bhukamatha project value your expertise and believe you can make a significant impact by collaborating with us. Your contributions, be it in developing new features, improving documentation, or updating the portal, will be instrumental in shaping the future of Bhukamatha. Feel free to reach out to us at surveyorstories@gmail.com",
     },
-    {
-      question: "Does Bhukamatha offer any guarantee of work or service? ",
-      answer:
-        "No, we cannot give you any guarantee of work or support. We are not responsible for any loss of work; We are only helping to fix any bugs identified during the process. It's up to you to take the risk.",
-    },
+
     // Add more questions and answers as needed
   ];
 
