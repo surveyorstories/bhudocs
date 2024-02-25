@@ -1,6 +1,7 @@
 ---
 sidebar_position: 7
 ---
+
 # Export Panel
 
 Export Panel will help you in Preview (or open the existing Layouts) in the project and also Export the Maps based on existing Layout(s).
@@ -40,7 +41,7 @@ Export Button provides the functionality of exporting the Maps
 
 - On click **Export** it start exporting Maps
 - Progress indicator start once the exporting has started
-![export_progress](../img/export_progress.png)
+  ![export_progress](../img/export_progress.png)
 - After completion of exporting Exported location will be shown along with completed message
 
 ![export_progress_completed](../img/export_progress_completed.png)
@@ -51,7 +52,7 @@ All the Maps exported via export panel are Exported into **Exported_Maps** folde
 
 :::
 
-### Points to Remember
+## Points to Remember
 
 - if **Export as a single file** is checked all the Maps will be exported into a single file with layout name irrespective of Atlas settings
 - To export all the Maps of **Atlas** layout keep the **From** and **To** values blank else it export Maps based on the values
