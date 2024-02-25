@@ -45,21 +45,17 @@ The Following Data fields are Required to Generate **Stone Map** using Bhukamath
 
 7. It will generate all the Required layers (**Land_Parcel_Stones, Government_Land_Stones, Field_Tri-Junction_Stones, Side_Village_Frill_Line, Side_VillageLayer**) for you 
    
-   - Land_Parcel_Stones,
-   
-   - Government_Land_Stones,
-   
-   - Field_Tri-Junction_Stones,
-   
-   - Side_Village_Frill_Line,
-   
-   - Side_VillageLayer
-
-
+         - Land_Parcel_Stones,
+       
+         - Government_Land_Stones,
+       
+         - Field_Tri-Junction_Stones,
+       
+         - Side_Village_Frill_Line,
+       
+         - Side_VillageLayer
 
 ### Remaining things To Do
-
-
 
 :::tip
 
