@@ -33,6 +33,7 @@ Dropdown shows all the list of available(added) Layouts in the Projects.
 ## Preview (Button)
 
 ![export_panel_preview](../img/export_panel_preview.gif)
+
 On click **Preview** button it open the selected Layout
 
 ## Export (Button)
@@ -42,6 +43,7 @@ Export Button provides the functionality of exporting the Maps
 - On click **Export** it start exporting Maps
 - Progress indicator start once the exporting has started
   ![export_progress](../img/export_progress.png)
+
 - After completion of exporting Exported location will be shown along with completed message
 
 ![export_progress_completed](../img/export_progress_completed.png)
