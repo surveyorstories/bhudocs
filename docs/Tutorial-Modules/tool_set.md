@@ -22,11 +22,17 @@ Tool Set Panel in Bhukamatha empowers you with custom-built tools that function 
 ### Topo Layers
 
 1. Save the project and set the projection of the project.
+
 2. Add a Base layer into the project we can do this by **Layer>Add Layer > Add vector Layer, then browse and pick the appropriate layer or just drag and drop it into the project. 
+
 3. Open the Tool Set by clicking on the icon or shortcut to open **<u>ALT + SHIFT + T </u>**
+
 4. Now Click on the **Create Topo Layers** it will create three Topo Layers namely **TopoLine, TopoPoint, and TopoPolygon** 
+
 5. Now Toggle edit the layers and click on add features based on the layer geometry (Point, Line, Polygon)
+
 6. Upon adding the feature a dropdown will be populated choose the respected topo from the dropdown list 
+
 7. To set the layers for LPM generation, please click on the **'Set for LPMS**' button which is found in TOPO Layers section.
 
 ### Side Village
