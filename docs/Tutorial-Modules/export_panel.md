@@ -12,8 +12,8 @@ Export Panel will help you in Preview (or open the existing Layouts) in the proj
 
 **From** and **To** value enables the filtering in the Maps for Atlas enabled layouts, for non Atlas layouts it won't works.
 
-- **From** value takes the Lower Limit of the filering criteria
-- **To** value takes the Upper Bounding Limit of the filering criteria
+- **From** value takes the Lower Limit of the filtering criteria
+- **To** value takes the Upper Bounding Limit of the filtering criteria
 
 :::info
 
@@ -27,8 +27,8 @@ Export Panel will help you in Preview (or open the existing Layouts) in the proj
 
 Dropdown shows all the list of available(added) Layouts in the Projects.
 
-- On click the layout dropdown open with all the added Layouts in the project
-- Click on the prefered Layout to select.
+- On click the layout drop-down open with all the added Layouts in the project
+- Click on the preferred Layout to select.
 
 ## Preview (Button)
 
@@ -41,6 +41,7 @@ On click **Preview** button it open the selected Layout
 Export Button provides the functionality of exporting the Maps
 
 - On click **Export** it start exporting Maps
+
 - Progress indicator start once the exporting has started
   ![export_progress](../img/export_progress.png)
 
