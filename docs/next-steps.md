@@ -20,4 +20,3 @@ Clicking on any icons of the Bhukamatha on unsaved project will prompt you for s
 Proper Zone selection for the project and for Layers is important and must do step
 
 ![set_prpjection](img/set_projection.png)
-
