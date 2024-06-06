@@ -13,7 +13,7 @@ Tool Set Panel in Bhukamatha empowers you with custom-built tools that function 
 | Sections                              | Description                                                                                                              |
 | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | Topo Layers                           | Generates Topo Layers namely Topo Point, Topo Line, Topo Polygon                                                         |
-| Side Village                          | Generates a Polygon layer around the village shapefile                                                                   |
+| Side Village                          | Generates a Polygon layer around the village shapefile for LPM generation                                                                 |
 | Create a Layer from Selected features | creates a new shapefile layer from the selection of the active layer                                                     |
 | Tools                                 | Extra tools for adjusting Point ID, splitting of LPMs, assigning Land parcel names, generating Ground validation notices |
 
@@ -23,7 +23,7 @@ Tool Set Panel in Bhukamatha empowers you with custom-built tools that function 
 
 1. Save the project and set the projection of the project.
 
-2. Add a Base layer into the project we can do this by **Layer>Add Layer > Add vector Layer, then browse and pick the appropriate layer or just drag and drop it into the project. 
+2. Add a Base layer into the project we can do this by **Layer>Add Layer > Add vector Layer**, then browse and pick the appropriate layer or just drag and drop it into the project. 
 
 3. Open the Tool Set by clicking on the icon or shortcut to open **<u>ALT + SHIFT + T </u>**
 
@@ -34,6 +34,8 @@ Tool Set Panel in Bhukamatha empowers you with custom-built tools that function 
 6. Upon adding the feature a dropdown will be populated choose the respected topo from the dropdown list 
 
 7. To set the layers for LPM generation, please click on the **'Set for LPMS**' button which is found in TOPO Layers section.
+
+8. To Release the layers from LPMS generation to Normal mode use **Revert** Button.
 
 ### Side Village
 
