@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbhukamatha=self.webpackChunkbhukamatha||[]).push([["7627"],{7548:function(a){a.exports=JSON.parse('{"blogBasePath":"/bhudocs/blog","blogTitle":"Blog","authorsListPath":"/bhudocs/blog/authors"}')}}]);

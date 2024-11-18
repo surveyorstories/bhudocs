@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbhukamatha=self.webpackChunkbhukamatha||[]).push([["7394"],{9084:function(t){t.exports=JSON.parse('{"authors":[{"name":"Lokesh Metta","title":"Maintainer of Bhudocs","url":"https://github.com/lokeshmetta","imageURL":"https://avatars.githubusercontent.com/u/26522232?v=4","key":"endi","page":null,"count":0}]}')}}]);
