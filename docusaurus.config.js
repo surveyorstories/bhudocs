@@ -31,6 +31,9 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
+  future: {
+    experimental_faster: true,
+  },
   plugins: [
     "plugin-image-zoom",
     // require.resolve("docusaurus-plugin-image-zoom"),
@@ -208,6 +211,7 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+    
 };
 
 export default config;
