@@ -37,16 +37,16 @@ const config = {
   plugins: [
     "plugin-image-zoom",
     // require.resolve("docusaurus-plugin-image-zoom"),
-    // [
-    //   "@docusaurus/plugin-ideal-image",
-    //   {
-    //     quality: 100,
-    //     max: 1030,
-    //     min: 640,
-    //     steps: 2,
-    //     disableInDev: true,
-    //   },
-    // ],
+    [
+      "@docusaurus/plugin-ideal-image",
+      {
+        quality: 100,
+        max: 1030,
+        min: 640,
+        steps: 2,
+        disableInDev: true,
+      },
+    ],
 
     [
     
@@ -72,7 +72,7 @@ const config = {
           {
             tagName: 'meta',
             name: 'theme-color',
-            content: 'rgb(37, 184, 160)',
+            content: 'rgb(37, 194, 160)',
           },
         ],
       },
