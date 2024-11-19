@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbhukamatha=self.webpackChunkbhukamatha||[]).push([["9274"],{5565:function(a){a.exports=JSON.parse('{"metadata":{"permalink":"/bhudocs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

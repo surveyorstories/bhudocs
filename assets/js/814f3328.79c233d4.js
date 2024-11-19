@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbhukamatha=self.webpackChunkbhukamatha||[]).push([["106"],{4200:function(t){t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Blog","permalink":"/bhudocs/blog/first_post","unlisted":false,"date":"2024-11-18T06:53:58.000Z"}]}')}}]);
