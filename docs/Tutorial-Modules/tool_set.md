@@ -115,9 +115,7 @@ This section includes extra tools designed for additional features for better la
 - **[Adjusting Point ID: Adjusting Point IDs](./adjusting_pointid.md)**
 - **Split: Splitting LPMs**
 - **[LP NO: Assigning Land Parcel names](./lpm_numbering.md)**
-- **GV: Generating Ground Validation Notices**
-
-
+- **[GV: Generating Ground Validation Notices](./gv_notices.md)**
 
 ## **Summary of Key Actions**
 
