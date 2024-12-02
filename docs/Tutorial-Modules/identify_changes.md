@@ -4,8 +4,6 @@ sidebar_position: 10
 
 # Identify Changes
 
-Shortcut to launch **<u></u>**
-
 The "Identify Changes" algorithm is a tool designed for QGIS to detect and highlight differences between two vector layers: a **Reference Layer** and a **New Modified Layer**. This tool supports **Point**, **Line**, and **Polygon** geometries, and it outputs the differences in vertices and geometries as new layers. It is ideal for tasks such as validating changes in cadastral surveys or GIS projects.
 
 ## Data Required
