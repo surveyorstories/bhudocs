@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 9
 ---
 
 # Identify Changes
@@ -20,7 +20,7 @@ The "Identify Changes" algorithm is a tool designed for QGIS to detect and highl
 
 This Algorithm supports batch process
 
-::: 
+:::
 
 ## How to
 
@@ -48,11 +48,11 @@ This Algorithm supports batch process
 ### **Error Messages**
 
 1. **Reference Layer is Invalid**
-   
+
    - Ensure the selected Reference Layer is a valid vector layer.
 
 2. **Changed Features is Invalid**
-   
+
    - Verify the New Modified Layer is correctly loaded and free of topology errors.
 
 ### **Limitations**
@@ -63,14 +63,14 @@ This Algorithm supports batch process
 ### **Tips for Best Results**
 
 1. **Check Topology**
-   
+
    - Validate and clean your shapefiles to ensure accuracy.
    - Use QGIS's built-in topology checker.
 
 2. **Use Spatial Indexing**
-   
+
    - If working with large datasets, ensure spatial indexing is enabled for better performance.
 
 3. **Save Outputs**
-   
+
    - While temporary layers are created by default, saving outputs ensures you retain results after QGIS is closed.
