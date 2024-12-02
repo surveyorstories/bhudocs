@@ -14,7 +14,7 @@ The "Identify Changes" algorithm is a tool designed for QGIS to detect and highl
 | Reference Layer                          | This is the original shapefile used for comparison. Supported geometry types: Point, Line, or Polygon.                                                                      | Shapefile |
 | Changed Vertices                         | The output layer for modified vertices. Default: Temporary layer.                                                                                                           | Path      |
 | Changed Features                         | The output layer for modified geometries. Default: Temporary layer.                                                                                                         | Path      |
-| Open output file after running algorithm | Option to automatically open the output layer in QGIS after running the algorithm. Default: No.                                                                             | Boolean   |
+| Open output file after running algorithm | Option to automatically open the output layer in QGIS Project after running the algorithm. Default: Yes.                                                                             | Boolean   |
 
 :::tip
 
@@ -36,7 +36,7 @@ This Algorithm supports batch process
 
 ### **2. View Results**
 
-- The results will be added to your QGIS project:
+- The results will be added to your QGIS project (Open output file after running algorithm is checked):
   - **Changed Vertices** will highlight all modified vertices.
   - **Changed Features** will show all modified geometries, with appropriate naming (e.g., Changed Points, Lines, or Polygons).
 
