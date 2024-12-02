@@ -125,6 +125,11 @@ const config = {
             label: "Faq's",
             position: "right",
           },
+          {
+            href: "/blog",
+            label: "Blog",
+            position: "right",
+          },
           // { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/surveyorstories",
