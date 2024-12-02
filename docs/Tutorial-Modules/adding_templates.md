@@ -2,6 +2,75 @@
 sidebar_position: 8
 ---
 
-# Adding Templates
+# Add Layouts to Project
 
-Adding templates pre available with bhukamatha plugin made easy with the help of adding templates module 
+Shortcut to launch **Add Layouts to Project**
+
+The **Add Layouts to Project** algorithm allows users to add multiple predefined print layouts (templates) to their QGIS project. It provides flexibility in selecting specific templates, customizing layouts, and automating layer integration into these templates. This tool is particularly useful for projects involving standardized maps, such as cadastral or survey maps.
+
+## Data Required
+
+| Column                              | Expecting Value (Description)                                                           | Type         |
+| ----------------------------------- | --------------------------------------------------------------------------------------- | ------------ |
+| **Please select a template to add** | Choose from a predefined list of templates to add to the project                        | Enum         |
+| **Village Final Shape File**        | The shapefile representing the final village layer to be used in the selected template. | Vector Layer |
+
+## Supported Templates
+
+| Template Name                     | Description                                                                     |
+| --------------------------------- | ------------------------------------------------------------------------------- |
+| **A3 LPM Template**               | Adds a layout with A3 LPM formatting.                                           |
+| **A4 LPM Template**               | Adds a layout with A4 LPM formatting.                                           |
+| **Stone Map Template**            | Creates a layout for stone maps in Telugu.                                      |
+| **Village Map Template**          | Generates a layout with a village map, including legends and other annotations. |
+| **Traverse Map Template**         | Creates a layout for traverse mapping.                                          |
+| **A4 Ground Validation Template** | Adds a ground validation template for survey validation purposes.               |
+| **A4 Acceptance Template**        | Adds a template for acceptance notices.                                         |
+| **MCC A3 LPM Template**           | Specialized A3 LPM template with MCC-specific requirements.                     |
+| **MCC A4 LPM Template**           | Specialized A4 LPM template with MCC-specific requirements.                     |
+
+## How to Use
+
+### 1. Run the Algorithm
+
+1. Open the **Add Layouts to Project** tool in the QGIS processing toolbox.
+2. Choose a template from the **"Please select a template to add"** dropdown menu.
+3. Select the **Village Final Shape File** layer.
+4. Click **Run** to apply the selected template.
+
+### 2. View and Customize the Layout
+
+- The tool will create and add the selected layout to the **Layout Manager** in your QGIS project.
+- Customize the layout as needed using the **Layout Editor** in QGIS.
+
+## Expected Results
+
+- The selected layout is added to your project with the following details:
+  - **Predefined Formatting**: Layouts are styled and formatted based on the selected template.
+  - **Integrated Data**: The specified shapefile (Village Final Shape File) is used in the template's map items.
+  - **Atlas Support**: For templates requiring multiple map outputs, atlas features are preconfigured.
+
+## Error Messages
+
+| Error                     | Description                                                                 | Troubleshooting                                                             |
+| ------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| **Invalid Shape File**    | The selected **Village Final Shape File** is invalid or not a vector layer. | Verify the shapefile and ensure it is correctly loaded in the QGIS project. |
+| **Template File Missing** | The template file for the selected layout is missing or inaccessible.       | Check the plugin's `assets` folder for the required template files.         |
+| **Layer Not Found**       | The tool could not find the required layer in the project.                  | Verify that the specified layer exists and is correctly named.              |
+
+## Supported Features
+
+- **Batch Processing**: Run the algorithm for multiple shapefiles at once.
+- **Topology Validation**: Ensures the layers used in templates are free of topology errors.
+- **Automatic Saving**: Saves the QGIS project and associated layers during processing.
+
+## Tips for Best Results
+
+1. **Validate Layers**  
+   Use QGIS's topology checker to ensure layers are valid and error-free before running the algorithm.
+
+2. **Atlas Customization**  
+   For atlas-enabled templates, use the **Atlas Panel** in the Layout Editor to fine-tune the output.
+
+3. **Save Outputs**  
+   Save the project after running the algorithm to preserve added layouts.
