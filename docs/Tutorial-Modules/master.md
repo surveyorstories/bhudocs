@@ -1,0 +1,91 @@
+---
+sidebar_position: 12
+---
+
+# User Documentation for MasterWidget
+
+Welcome to the **MasterWidget User Guide**, designed to help you use the form effectively for managing survey and project data. This tool simplifies the process of entering, updating, and saving information related to land surveys, villages, and administrative details.
+
+## What Does MasterWidget Do?
+
+MasterWidget allows you to:
+
+- Input and save details about villages, mandals, surveys, and administrative officers.
+- Update data directly into your QGIS project or global settings.
+- Easily clear all fields to start fresh when needed.
+- View and select district names in both **English** and **Telugu**.
+
+## How to Use the Form
+
+### Step 1: Choose Your District
+
+1. At the top of the form, you’ll find a dropdown labeled **"Choose Your District"**.
+2. Click the dropdown and select your district. Each district is listed in **English** followed by its name in **Telugu**.  
+   Example: *Srikakulam (శ్రీకాకుళం)*.
+
+### Step 2: Fill Out the Fields
+
+The form is divided into two columns for easy navigation:
+
+#### **Left Column:**
+
+- **Total Number of LPMs:** Enter the number of land parcels surveyed.
+- **Village Code:** Input the unique code for your village.
+- **Mandal Name & Village Name (English):** Provide the names in English.
+- **Assistant Director and Commissioner Names (English):** Enter the respective officer names.
+- **Mandal and Village Name (Telugu):** Provide the Telugu names.
+- **Village Surveyor Name (Telugu):** Specify the surveyor’s name.
+- **Old Survey Year:** Mention the year of the earlier survey.
+
+#### **Right Column:**
+
+- **New Resurvey Year:** Specify the year of the resurvey.
+- **Notification Numbers and Dates:** Provide details for government notifications, including Gazette and RC numbers, and their respective dates.
+- **Area Details:** Enter the area as per old and new surveys (both in acres and hectares).
+- **Work Dates:** Mention the dates when the work commenced and completed.
+
+### Step 3: Buttons to Clear or Update Data
+
+#### **Clear Button:**
+
+- Resets all the fields in the form to their default states.
+- Use this button if you want to start afresh or discard your entries.
+- *Note:* You’ll need to re-enter all data after clearing.
+
+#### **Update Button:**
+
+- Saves your entries into the QGIS project or as global settings.
+- A confirmation message will appear once the data is successfully saved.
+- *Tip:* Review all fields before clicking "Update" to avoid mistakes.
+
+## Special Features
+
+## FAQs
+
+### 1. What happens when I click "Clear"?
+
+All data entered in the form will be reset to default values. You can start with a blank form.
+
+### 2. Where does the data go when I click "Update"?
+
+The data is saved to your current QGIS project or global settings, making it accessible later when you reopen the project.
+
+### 3. Can I edit data after updating it?
+
+Yes! Simply reopen the form, modify the fields, and click "Update" to save changes.
+
+### 4. What if I forget to select a district?
+
+The form will save the rest of the data, but selecting a district ensures accuracy and consistency in your records.
+
+## Troubleshooting
+
+### **Issue:** I can’t see Telugu text properly.
+
+**Solution:** Ensure your system has Telugu fonts installed.
+
+### **Issue:** My data didn’t save after clicking "Update."
+
+**Solution:** Check if your QGIS project allows updates. Restart QGIS if necessary.
+
+We hope this guide helps you make the most of **MasterWidget**. If you have further questions, consult your team lead or support contact for assistance.
