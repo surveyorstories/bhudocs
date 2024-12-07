@@ -106,6 +106,10 @@ const config = {
         textColor: "#fff",
         isCloseable: true,
       },
+      tableOfContents: {
+        minHeadingLevel: 2,
+        maxHeadingLevel: 5,
+      },
       navbar: {
         title: "Surveyor stories",
         logo: {
