@@ -31,7 +31,7 @@ MasterWidget allows you to:
 
 The form is divided into two columns for easy navigation:
 
-#### **Left Column:**
+#### Left Column
 
 - **Total Number of LPMs:** Enter the number of land parcels surveyed.
 - **Village Code:** Input the unique code for your village.
@@ -46,7 +46,7 @@ The form is divided into two columns for easy navigation:
 - **Village Surveyor Name (Telugu):** Specify the surveyor’s name.
 - **Old Survey Year:** Mention the year of the earlier survey.
 
-#### **Right Column:**
+#### Right Column
 
 - **New Resurvey Year:** Specify the year of the resurvey.
 - **Notification Numbers and Dates:** Provide details for government notifications, including Gazette and RC numbers, and their respective dates.
@@ -55,13 +55,13 @@ The form is divided into two columns for easy navigation:
 
 ### Step 3: Buttons to Clear or Update Data
 
-#### **Clear Button:**
+#### Clear Button
 
 - Resets all the fields in the form to their default states.
 - Use this button if you want to start afresh or discard your entries.
 - *Note:* You’ll need to re-enter all data after clearing.
 
-#### **Update Button:**
+#### Update Button
 
 - Saves your entries into the QGIS project or as global settings.
 - A confirmation message will appear once the data is successfully saved.
@@ -91,7 +91,7 @@ The form will save the rest of the data, but selecting a district ensures accura
 
 ### **Issue:** I can’t see Telugu text properly
 
-**Solution:** Ensure your system has Telugu fonts installed.
+**Solution:** Ensure your system has Telugu fonts(Gautami) installed.
 
 ### **Issue:** My data didn’t save after clicking "Update."
 
