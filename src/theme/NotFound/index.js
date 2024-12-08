@@ -25,15 +25,16 @@ export default function NotFound() {
       <Layout title="404 - Page Not Found" description="Oops! You seem to have taken a wrong turn!">
         <main className="container margin-vert--xl not-found-page">
           <div className="not-found-content">
-            <h1 className="not-found-title">404</h1>
+          <h1 className="not-found-title">404</h1>
+            <div className="not-found-image">
+              { <img src="./img/404.svg" alt="cactus" /> }
+            </div>
+            
             <h2 className="not-found-subtitle">Uh-oh! You’ve taken a wrong turn!</h2>
             <p className="not-found-message">
               Looks like you’ve stumbled upon a page that doesn’t exist. Don’t worry, you’re not lost in space—just a bit off the beaten path!
             </p>
-            <div className="not-found-image">
-              {/* Uncomment and ensure the path to your image is correct */}
-              {/* <img src="./img/404.png" alt="Astronaut Lost in Space" /> */}
-            </div>
+            
             <Link to="/" className="not-found-button">
               Take me home, please!
             </Link>

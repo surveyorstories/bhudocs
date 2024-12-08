@@ -1,6 +1,7 @@
 .not-found-page {
     text-align: center;
-    padding: 50px 0;
+    padding: 10px 0;
+    margin-top: 0rem;
   }
   
   .not-found-content {
@@ -10,37 +11,42 @@
     justify-content: center;
   }
   
+  .container.margin-vert--xl.not-found-page {
+    margin-bottom: 1rem !important;
+    margin-top: 0.1rem !important;
+  }
+  
   .not-found-title {
     font-size: 6rem;
     font-weight: bold;
-    color: #313f00;
-    margin-bottom: 0.5rem;
+    /* color: #313f00; */
+    margin-bottom: 0.3rem;
   }
   
   .not-found-subtitle {
     font-size: 2rem;
     font-weight: 600;
-    color: #333;
-    margin-bottom: 1.5rem;
+    /* color: #333; */
+    margin-bottom: 0.5rem;
   }
   
   .not-found-message {
     font-size: 1.2rem;
-    color: #666;
-    margin-bottom: 2rem;
+    /* color: #666; */
+    margin-bottom: 0.5rem;
     max-width: 600px;
   }
   
   .not-found-image img {
     max-width: 300px;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
   }
   
   .not-found-button {
     font-size: 1.2rem;
     padding: 10px 20px;
     background-color: #0f003f;
-    color: white;
+    color: rgb(230, 222, 222);
     border: none;
     border-radius: 5px;
     text-decoration: none;
