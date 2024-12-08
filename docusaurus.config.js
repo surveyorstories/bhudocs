@@ -110,6 +110,12 @@ const config = {
         minHeadingLevel: 2,
         maxHeadingLevel: 5,
       },
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
+      },
       navbar: {
         title: "Surveyor stories",
         logo: {
@@ -117,6 +123,7 @@ const config = {
           src: "img/logo_light.svg",
           srcDark: "img/logo_dark.svg",
         },
+        
         items: [
           {
             type: "docSidebar",
