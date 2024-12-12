@@ -30,7 +30,7 @@ This Algorithm supports batch process
 
 ### 1. Run the algorithm
 
-1. Open the "Identify Changes" tool in the QGIS processing toolbox.
+1. Open the "Identify Changes" under Bhukamatha tool in the QGIS processing toolbox.
 
 2. Select the required input layers.
 
