@@ -1,0 +1,197 @@
+<!doctype html><html lang=en dir=ltr class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-Tutorial-Modules/patta_sub-division" data-has-hydrated=false><meta charset=UTF-8><meta name=generator content="Docusaurus v3.6.3"><title data-rh=true>Patta Sub-Division | Surveyor stories</title><meta data-rh=true name=viewport content="width=device-width,initial-scale=1.0"><meta data-rh=true name=twitter:card content=summary_large_image><meta data-rh=true property=og:image content=https://github.com/bhudocs/img/logo_light.svg><meta data-rh=true name=twitter:image content=https://github.com/bhudocs/img/logo_light.svg><meta data-rh=true property=og:url content=https://github.com/bhudocs/docs/Tutorial-Modules/patta_sub-division><meta data-rh=true property=og:locale content=en><meta data-rh=true name=docusaurus_locale content=en><meta data-rh=true name=docsearch:language content=en><meta data-rh=true name=docusaurus_version content=current><meta data-rh=true name=docusaurus_tag content=docs-default-current><meta data-rh=true name=docsearch:version content=current><meta data-rh=true name=docsearch:docusaurus_tag content=docs-default-current><meta data-rh=true property=og:title content="Patta Sub-Division | Surveyor stories"><meta data-rh=true name=description content="The Patta Sub-Division Algorithm is a tool designed to automate and streamline the process of dividing land parcels and integrating various data layers in a QGIS environment. This algorithm is particularly useful for creating sub-divisions of revenue villages, and it ensures that the necessary spatial, tabular, and topological data are properly integrated. The output includes both spatial data and finalized layouts, including A4 and A3 LPM templates that are aligned with the project settings for seamless map export using the Atlas function in QGIS."><meta data-rh=true property=og:description content="The Patta Sub-Division Algorithm is a tool designed to automate and streamline the process of dividing land parcels and integrating various data layers in a QGIS environment. This algorithm is particularly useful for creating sub-divisions of revenue villages, and it ensures that the necessary spatial, tabular, and topological data are properly integrated. The output includes both spatial data and finalized layouts, including A4 and A3 LPM templates that are aligned with the project settings for seamless map export using the Atlas function in QGIS."><link data-rh=true rel=icon href=/bhudocs/img/favicon.ico><link data-rh=true rel=canonical href=https://github.com/bhudocs/docs/Tutorial-Modules/patta_sub-division><link data-rh=true rel=alternate href=https://github.com/bhudocs/docs/Tutorial-Modules/patta_sub-division hreflang=en><link data-rh=true rel=alternate href=https://github.com/bhudocs/docs/Tutorial-Modules/patta_sub-division hreflang=x-default><link rel=alternate type=application/rss+xml href=/bhudocs/blog/rss.xml title="Surveyor stories RSS Feed"><link rel=alternate type=application/atom+xml href=/bhudocs/blog/atom.xml title="Surveyor stories Atom Feed"><link rel=icon href=/bhudocs/img/docusaurus.png><link rel=manifest href=/bhudocs/manifest.json><meta name=theme-color content="rgb(37, 194, 160)"><link rel=stylesheet href=/bhudocs/assets/css/styles.3ed82b84.css><script src=/bhudocs/assets/js/runtime~main.68f934a7.js defer></script><script src=/bhudocs/assets/js/main.9e90f65a.js defer></script><body class=navigation-with-keyboard><script>!function(){var t,e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t=null!==e?e:"light",document.documentElement.setAttribute("data-theme",t)}(),function(){try{for(var[t,e]of new URLSearchParams(window.location.search).entries())if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}(),document.documentElement.setAttribute("data-announcement-bar-initially-dismissed",function(){try{return"true"===localStorage.getItem("docusaurus.announcement.dismiss")}catch(t){}return!1}())</script><div id=__docusaurus><div role=region aria-label="Skip to main content"><a class=skipToContent_fXgn href=#__docusaurus_skipToContent_fallback>Skip to main content</a></div><div class=announcementBar_mb4j style=background-color:#099f3d;color:#fff role=banner><div class=announcementBarPlaceholder_vyr4></div><div class="content_knG7 announcementBarContent_xLdY">Are you intrested!. We are looking to revamp our docs, please fill  <a target=_blank rel="noopener noreferrer" href=/bhudocs/contribution>this survey</a> to contribute</div><button type=button aria-label=Close class="clean-btn close closeButton_CVFx announcementBarClose_gvF7"><svg viewBox="0 0 15 15" width=14 height=14><g stroke=currentColor stroke-width=3.1><path d="M.75.75l13.5 13.5M14.25.75L.75 14.25"/></g></svg></button></div><nav aria-label=Main class="navbar navbar--fixed-top"><div class=navbar__inner><div class=navbar__items><button aria-label="Toggle navigation bar" aria-expanded=false class="navbar__toggle clean-btn" type=button><svg width=30 height=30 viewBox="0 0 30 30" aria-hidden=true><path stroke=currentColor stroke-linecap=round stroke-miterlimit=10 stroke-width=2 d="M4 7h22M4 15h22M4 23h22"/></svg></button><a class=navbar__brand href=/bhudocs/><div class=navbar__logo><img src=/bhudocs/img/logo_light.svg alt="Surveyor stories" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src=/bhudocs/img/logo_dark.svg alt="Surveyor stories" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Surveyor stories</b></a></div><div class="navbar__items navbar__items--right"><a aria-current=page class="navbar__item navbar__link navbar__link--active" href=/bhudocs/docs>Documentation</a><a class="navbar__item navbar__link" href=/bhudocs/#faqs>Faq's</a><a class="navbar__item navbar__link" href=/bhudocs/blog>Blog</a><a href=https://github.com/surveyorstories target=_blank rel="noopener noreferrer" class="navbar__item navbar__link header-github-link" aria-label="GitHub repository"></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type=button disabled title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live=polite aria-pressed=false><svg viewBox="0 0 24 24" width=24 height=24 class=lightToggleIcon_pyhR><path fill=currentColor d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"/></svg><svg viewBox="0 0 24 24" width=24 height=24 class=darkToggleIcon_wfgR><path fill=currentColor d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"/></svg></button></div><div class=navbarSearchContainer_Bca1></div></div></div><div role=presentation class=navbar-sidebar__backdrop></div></nav><div id=__docusaurus_skipToContent_fallback class="main-wrapper mainWrapper_z2l0"><div class=docsWrapper_hBAB><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type=button></button><div class=docRoot_UBD9><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class=sidebarViewport_aRkj><div class=sidebar_njMd><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG menuWithAnnouncementBar_GW3s"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class=menu__link href=/bhudocs/docs>Welcome</a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class=menu__link href=/bhudocs/docs/next-steps>Next Steps</a><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist menu__link--active" href=/bhudocs/docs/category/tutorial-modules>Tutorial: Modules</a><button aria-label="Collapse sidebar category 'Tutorial: Modules'" aria-expanded=true type=button class="clean-btn menu__caret"></button></div><ul style=display:block;overflow:visible;height:auto class=menu__list><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/bhudocs/docs/Tutorial-Modules/tool_set>Tool Set</a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/bhudocs/docs/Tutorial-Modules/splitting_features>Splitting of Features (Beta)</a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/bhudocs/docs/Tutorial-Modules/lpm_numbering>LPM Numbering (Beta)</a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/bhudocs/docs/Tutorial-Modules/lpm_processing>LPM Processing</a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/bhudocs/docs/Tutorial-Modules/village_map>Village Map</a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/bhudocs/docs/Tutorial-Modules/stone_map>Stone Map</a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/bhudocs/docs/Tutorial-Modules/export_panel>Export Panel</a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/bhudocs/docs/Tutorial-Modules/adding_templates>Add Layouts to Project</a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/bhudocs/docs/Tutorial-Modules/identify_changes>Identify Changes</a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/bhudocs/docs/Tutorial-Modules/adjusting_pointid>Adjusting Point IDs</a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/bhudocs/docs/Tutorial-Modules/gv_notices>Ground Validation Notices</a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/bhudocs/docs/Tutorial-Modules/master>Master Panel</a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current=page tabindex=0 href=/bhudocs/docs/Tutorial-Modules/patta_sub-division>Patta Sub-Division</a></ul></ul></nav><button type=button title="Collapse sidebar" aria-label="Collapse sidebar" class="button button--secondary button--outline collapseSidebarButton_PEFL"><svg width=20 height=20 aria-hidden=true class=collapseSidebarButtonIcon_kv0_><g fill=#7a7a7a><path d="M9.992 10.023c0 .2-.062.399-.172.547l-4.996 7.492a.982.982 0 01-.828.454H1c-.55 0-1-.453-1-1 0-.2.059-.403.168-.551l4.629-6.942L.168 3.078A.939.939 0 010 2.528c0-.548.45-.997 1-.997h2.996c.352 0 .649.18.828.45L9.82 9.472c.11.148.172.347.172.55zm0 0"/><path d="M19.98 10.023c0 .2-.058.399-.168.547l-4.996 7.492a.987.987 0 01-.828.454h-3c-.547 0-.996-.453-.996-1 0-.2.059-.403.168-.551l4.625-6.942-4.625-6.945a.939.939 0 01-.168-.55 1 1 0 01.996-.997h3c.348 0 .649.18.828.45l4.996 7.492c.11.148.168.347.168.55zm0 0"/></g></svg></button></div></div></aside><main class=docMainContainer_TBSr><div class="container padding-top--md padding-bottom--lg"><div class=row><div class="col docItemCol_VOVn"><div class=docItemContainer_Djhp><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label=Breadcrumbs><ul class=breadcrumbs itemscope itemtype=https://schema.org/BreadcrumbList><li class=breadcrumbs__item><a aria-label="Home page" class=breadcrumbs__link href=/bhudocs/><svg viewBox="0 0 24 24" class=breadcrumbHomeIcon_YNFT><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill=currentColor /></svg></a><li itemscope itemprop=itemListElement itemtype=https://schema.org/ListItem class=breadcrumbs__item><a class=breadcrumbs__link itemprop=item href=/bhudocs/docs/category/tutorial-modules><span itemprop=name>Tutorial: Modules</span></a><meta itemprop=position content=1><li itemscope itemprop=itemListElement itemtype=https://schema.org/ListItem class="breadcrumbs__item breadcrumbs__item--active"><span class=breadcrumbs__link itemprop=name>Patta Sub-Division</span><meta itemprop=position content=2></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type=button class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Patta Sub-Division</h1></header>
+<p>The <strong>Patta Sub-Division Algorithm</strong> is a tool designed to automate and streamline the process of dividing land parcels and integrating various data layers in a QGIS environment. This algorithm is particularly useful for creating sub-divisions of revenue villages, and it ensures that the necessary spatial, tabular, and topological data are properly integrated. The output includes both spatial data and finalized layouts, including <strong>A4 and A3 LPM templates</strong> that are aligned with the project settings for seamless map export using the <strong>Atlas function</strong> in QGIS.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id=purpose>Purpose<a href=#purpose class=hash-link aria-label="Direct link to Purpose" title="Direct link to Purpose">​</a></h2>
+<p>The algorithm helps in generating a comprehensive sub-division of land records, enhancing the quality and accuracy of the mapping process. The tool integrates topological precision, data from different sources (like RLR, ROR, ULPIN), and generates standardized templates for seamless map export. The integration of <strong>Topo Layers</strong> ensures topological integrity before running the algorithm.</p>
+<h6 class="anchor anchorWithStickyNavbar_LWe7" id=pre-requisite-steps><strong>Pre-Requisite Steps</strong><a href=#pre-requisite-steps class=hash-link aria-label="Direct link to pre-requisite-steps" title="Direct link to pre-requisite-steps">​</a></h6>
+<p>Before running the algorithm, ensure the following:</p>
+<ol>
+<li>
+<p><strong>Project Consistency</strong>:</p>
+<ul>
+<li>Both <strong>Village Final Shape File</strong> and <strong>Cutted Layer</strong> layers must be in the <strong>same projection</strong> to avoid any misalignment during processing. Verify the projection settings of the layers and the project to ensure they match.</li>
+<li>If needed, adjust the projection by right-clicking the layer and choosing <strong>Layer CRS</strong> or adjusting the <strong>Project CRS</strong> settings.</li>
+</ul>
+</li>
+<li>
+<p><strong>Save the Project</strong>:</p>
+<ul>
+<li>The QGIS project must be saved before running the algorithm, as it depends on the project directory for saving output files and layers.</li>
+<li>Ensure that all layers are correctly loaded and saved in the project to maintain integrity during the algorithm execution.</li>
+</ul>
+</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id=data-requirements>Data Requirements<a href=#data-requirements class=hash-link aria-label="Direct link to Data Requirements" title="Direct link to Data Requirements">​</a></h3>
+<table><thead><tr><th><strong>Parameter</strong><th><strong>Description</strong><th><strong>Type</strong><tbody><tr><td><strong>Village Final Shape File</strong><td>The final approved shapefile of the village boundary, typically containing polygon data.<td>Shapefile (Polygon)<tr><td><strong>Cutted Layer</strong><td>A layer representing the subdivisions or cuts to be applied to the village polygons.<td>Shapefile (Line/Polygon)<tr><td><strong>Land Parcel Number Column</strong><td>Column containing land parcel number for identifying individual parcels in the village shape.<td>Field (Any)<tr><td><strong>Area in Acres Column</strong><td>Column containing area information in acres for land parcels.<td>Field (Any)<tr><td><strong>Area in Hectares Column</strong><td>Column containing area information in hectares for land parcels.<td>Field (Any)<tr><td><strong>Create Side Villages Polygon Layer</strong><td>Option to generate a polygon layer for side villages.<td>Boolean<tr><td><strong>Frill Line Length (Multi Ring Length)</strong><td>The length of the frill line to be applied around side village boundaries.<td>Distance (1-20)<tr><td><strong>RLR/ROR File</strong><td>Excel file containing Resurvey Land Register (RLR) or Records of Rights (ROR).<td>File (*.xlsx)<tr><td><strong>Select File Type (RLR/ROR)</strong><td>Dropdown to specify the type of file selected (either RLR or ROR).<td>Enum<tr><td><strong>ULPIN Layer</strong><td>CSV file containing Unique Land Parcel Identification Numbers (ULPIN) data.<td>File (*.csv)<tr><td><strong>LP Number Column</strong><td>Column containing LP (Land Parcel) numbers in the ULPIN layer.<td>Field (Any)<tr><td><strong>ULPIN Number Column</strong><td>Column containing ULPIN numbers in the ULPIN layer.<td>Field (Any)<tr><td><strong>7-Digit Revenue Village Code</strong><td>Unique 7-digit code identifying the revenue village.<td>String<tr><td><strong>Village Name (Telugu)</strong><td>Name of the village in Telugu script.<td>String<tr><td><strong>Mandal Name (Telugu)</strong><td>Name of the mandal (administrative unit) in Telugu script.<td>String<tr><td><strong>District Name (English)</strong><td>Name of the district selected from a dropdown list.<td>Enum<tr><td><strong>Village Surveyor Name</strong><td>Name of the surveyor responsible for the village.<td>String</table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id=how-to>How To<a href=#how-to class=hash-link aria-label="Direct link to How To" title="Direct link to How To">​</a></h2>
+<div class="theme-admonition theme-admonition-warning admonition_xJq3 alert alert--warning"><div class=admonitionHeading_Gvgb><span class=admonitionIcon_Rf37><svg viewBox="0 0 16 16"><path fill-rule=evenodd d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg></span>warning</div><div class=admonitionContent_BuS1><p>Ensure that the project and both the layers  are in the same Projection (CRS) and project must be saved before running the algorithm.</div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id=1-configure-input-files>1. Configure Input Files<a href=#1-configure-input-files class=hash-link aria-label="Direct link to 1. Configure Input Files" title="Direct link to 1. Configure Input Files">​</a></h3>
+<ol>
+<li><strong>Load Spatial Data</strong>:</li>
+</ol>
+<ul>
+<li>
+<p>Load the <strong>Village Final Shape File</strong> and <strong>Cutted Layer</strong> (polygon or line) into your QGIS project.</p>
+</li>
+<li>
+<p>Use <strong>Layer > Add Layer > Add Vector Layer</strong> or drag-and-drop the files.</p>
+</li>
+</ul>
+<ol start=2>
+<li>
+<p><strong>Load Tabular Data</strong>:</p>
+<ul>
+<li>Choose the appropriate <strong>RLR/ROR File</strong> and <strong>ULPIN Layer</strong> through the file selection interface.</li>
+</ul>
+</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id=2-use-the-create-topo-layers-tool>2. Use the Create Topo Layers Tool<a href=#2-use-the-create-topo-layers-tool class=hash-link aria-label="Direct link to 2. Use the Create Topo Layers Tool" title="Direct link to 2. Use the Create Topo Layers Tool">​</a></h3>
+<p>Before running the algorithm, use the <strong>Create Topo Layers</strong> tool to generate topological data that ensures the spatial integrity of the sub-division process:</p>
+<ol>
+<li><strong>Create Topo Layers</strong>:</li>
+</ol>
+<ul>
+<li>
+<p>In the QGIS interface, open the <strong>Tool Set Panel</strong>.</p>
+</li>
+<li>
+<p>Click on <strong>Create Topo Layers</strong> to generate:</p>
+<ul>
+<li><strong>TopoPoint</strong></li>
+<li><strong>TopoLine</strong></li>
+<li><strong>TopoPolygon</strong></li>
+</ul>
+<p>more detailed instructions about the Create Topo Layers at <a href=/bhudocs/docs/Tutorial-Modules/tool_set#1-topo-layers>Tool Set</a> Page</p>
+</li>
+</ul>
+<ol start=2>
+<li><strong>Validate Topo Layers</strong>:</li>
+</ol>
+<ul>
+<li>Ensure that these topo layers are aligned correctly and that no topological errors are present in the generated layers.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id=3-define-algorithm-parameters>3. Define Algorithm Parameters<a href=#3-define-algorithm-parameters class=hash-link aria-label="Direct link to 3. Define Algorithm Parameters" title="Direct link to 3. Define Algorithm Parameters">​</a></h3>
+<ul>
+<li><strong>Select Data Fields</strong>:<!-- -->
+<ul>
+<li>Ensure all fields, such as <strong>Land Parcel Number Column</strong>, <strong>Area in Acres Column</strong>, <strong>Area in Hectares Column</strong>, and the <strong>LP Number Column</strong> in the ULPIN layer, are correctly mapped.</li>
+</ul>
+</li>
+<li><strong>Set Village Information</strong>:<!-- -->
+<ul>
+<li>Enter the <strong>7-Digit Revenue Village Code</strong>, <strong>Village Name (Telugu)</strong>, <strong>Mandal Name (Telugu)</strong>, and <strong>District Name</strong>.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id=4-execute-the-patta-sub-division-algorithm>4. Execute the Patta Sub-Division Algorithm<a href=#4-execute-the-patta-sub-division-algorithm class=hash-link aria-label="Direct link to 4. Execute the Patta Sub-Division Algorithm" title="Direct link to 4. Execute the Patta Sub-Division Algorithm">​</a></h3>
+<ol>
+<li>Once all parameters are configured, click <strong>Run</strong>.</li>
+<li>The algorithm will process the data and generate:</li>
+</ol>
+<ul>
+<li>Sub-divided land records based on the Cutted Layer.</li>
+<li>Topological accuracy for the land parcels.</li>
+<li>A side villages polygon layer (if selected).</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id=5-template-generation-for-map-export>5. Template Generation for Map Export<a href=#5-template-generation-for-map-export class=hash-link aria-label="Direct link to 5. Template Generation for Map Export" title="Direct link to 5. Template Generation for Map Export">​</a></h3>
+<ol>
+<li><strong>A4 and A3 LPM Templates</strong>:</li>
+</ol>
+<ul>
+<li>The algorithm automatically generates both <strong>A4</strong> and <strong>A3 LPM templates</strong> for map export. These templates are pre-aligned with the project’s settings to ensure accurate scaling and positioning when using QGIS’s <strong>Atlas</strong> function.</li>
+</ul>
+<ol start=2>
+<li><strong>Template Alignment</strong>:</li>
+</ol>
+<ul>
+<li>Both templates are configured to match the project’s spatial reference system, ensuring that all maps generated through the Atlas function are correctly scaled for printing or distribution.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id=output-layers>Output Layers<a href=#output-layers class=hash-link aria-label="Direct link to Output Layers" title="Direct link to Output Layers">​</a></h2>
+<ol>
+<li><strong>Sub-divided Village Layer</strong>: The final polygon layer containing sub-divisions of land parcels.</li>
+<li><strong>Topo Layers</strong>:</li>
+</ol>
+<ul>
+<li>TopoPoint</li>
+<li>TopoLine</li>
+<li>TopoPolygon</li>
+</ul>
+<ol start=3>
+<li>
+<p><strong>Side Village Frill Lines</strong>: Optional lines marking the boundaries of side villages.</p>
+</li>
+<li>
+<p><strong>ULPIN Linked Layer</strong>: A layer linking ULPIN numbers with the respective land parcels.</p>
+</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id=a4-and-a3-lpm-templates>A4 and A3 LPM Templates<a href=#a4-and-a3-lpm-templates class=hash-link aria-label="Direct link to A4 and A3 LPM Templates" title="Direct link to A4 and A3 LPM Templates">​</a></h3>
+<ul>
+<li>The algorithm automatically adds both the <strong>A4 LPM template</strong> and the <strong>A3 LPM template</strong> to the project.</li>
+<li>These templates are aligned with the current project settings to ensure consistent page size and layout for printing.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id=atlas-setup>Atlas Setup<a href=#atlas-setup class=hash-link aria-label="Direct link to Atlas Setup" title="Direct link to Atlas Setup">​</a></h3>
+<ul>
+<li>The generated <strong>A4</strong> and <strong>A3</strong> templates are integrated into the <strong>Atlas function</strong> in QGIS, enabling seamless generation of map layouts for the sub-divided parcels. This ensures that maps can be exported or printed without manual adjustments.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id=post-processing-steps>Post-Processing Steps<a href=#post-processing-steps class=hash-link aria-label="Direct link to Post-Processing Steps" title="Direct link to Post-Processing Steps">​</a></h2>
+<p>After executing the algorithm, you may need to perform some adjustments for final map presentation and data accuracy:</p>
+<ol>
+<li><strong>Adjust Topo Layers</strong>:</li>
+</ol>
+<ul>
+<li>If any errors are detected in the <strong>TopoPoint</strong>, <strong>TopoLine</strong>, or <strong>TopoPolygon</strong> layers, make corrections manually by selecting the appropriate layer and editing the geometry.</li>
+</ul>
+<ol start=2>
+<li><strong>Add Junction Stones</strong>:</li>
+</ol>
+<ul>
+<li>If required, insert <strong>Bi-Junction (Old/New)</strong> or <strong>Tri-Junction (Old/New)</strong> stones using the pre-existing stone layers (TopoPoint).</li>
+</ul>
+<ol start=3>
+<li><strong>Modify Side Villages</strong>:</li>
+</ol>
+<ul>
+<li>If the side villages layer has been created, use the <strong>Side Village Frill Line</strong> and <strong>Side Village Layer</strong> to adjust village boundary labels or frill line placement.</li>
+</ul>
+<ol start=4>
+<li><strong>Review Map Templates</strong>:</li>
+</ol>
+<ul>
+<li>Review both the <strong>A4</strong> and <strong>A3 LPM templates</strong> generated during the process. Make any necessary adjustments in the layout for print or export.</li>
+</ul>
+<ol start=5>
+<li><strong>Verify Layer Integrity</strong>:</li>
+</ol>
+<ul>
+<li>Ensure that no layers have been renamed or altered, as this could disrupt the functionality of the algorithm.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id=tips-and-warnings>Tips and Warnings<a href=#tips-and-warnings class=hash-link aria-label="Direct link to Tips and Warnings" title="Direct link to Tips and Warnings">​</a></h2>
+<ol>
+<li><strong>Save Your Project</strong>:</li>
+</ol>
+<ul>
+<li>Always save your QGIS project before running the algorithm to avoid data loss.</li>
+</ul>
+<ol start=2>
+<li><strong>Ensure Proper Layer Names</strong>:</li>
+</ol>
+<ul>
+<li>Avoid renaming any layers generated by the algorithm, as it may disrupt the workflow.</li>
+</ul>
+<ol start=3>
+<li><strong>Verify Data Consistency</strong>:</li>
+</ol>
+<ul>
+<li>Make sure that all spatial and tabular data are correctly aligned and that no field mappings are missing.</li>
+</ul>
+<ol start=4>
+<li><strong>Double-Check Telugu Names</strong>:</li>
+</ol>
+<ul>
+<li>Ensure that Telugu names for the village and mandal are typed accurately, as this impacts the final report.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id=conclusion>Conclusion<a href=#conclusion class=hash-link aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
+<p>The <strong>Patta Sub-Division Algorithm</strong> provides a powerful tool for automating the creation and management of land record sub-divisions. It seamlessly integrates spatial data, land records, and topological accuracy, while generating map templates for professional-quality output. By following the steps outlined above, users can efficiently process, visualize, and export land subdivision maps with minimal manual intervention.</div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class=col><a href=https://github.com/surveyorstories/bhudocs/edit/main/docs/Tutorial-Modules/patta_sub-division.md target=_blank rel="noopener noreferrer" class=theme-edit-this-page><svg fill=currentColor height=20 width=20 viewBox="0 0 40 40" class=iconEdit_Z9Sw aria-hidden=true><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"/></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href=/bhudocs/docs/Tutorial-Modules/master><div class=pagination-nav__sublabel>Previous</div><div class=pagination-nav__label>Master Panel</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href=#purpose class="table-of-contents__link toc-highlight">Purpose</a><ul><li><a href=#data-requirements class="table-of-contents__link toc-highlight">Data Requirements</a></ul><li><a href=#how-to class="table-of-contents__link toc-highlight">How To</a><ul><li><a href=#1-configure-input-files class="table-of-contents__link toc-highlight">1. Configure Input Files</a><li><a href=#2-use-the-create-topo-layers-tool class="table-of-contents__link toc-highlight">2. Use the Create Topo Layers Tool</a><li><a href=#3-define-algorithm-parameters class="table-of-contents__link toc-highlight">3. Define Algorithm Parameters</a><li><a href=#4-execute-the-patta-sub-division-algorithm class="table-of-contents__link toc-highlight">4. Execute the Patta Sub-Division Algorithm</a><li><a href=#5-template-generation-for-map-export class="table-of-contents__link toc-highlight">5. Template Generation for Map Export</a></ul><li><a href=#output-layers class="table-of-contents__link toc-highlight">Output Layers</a><ul><li><a href=#a4-and-a3-lpm-templates class="table-of-contents__link toc-highlight">A4 and A3 LPM Templates</a><li><a href=#atlas-setup class="table-of-contents__link toc-highlight">Atlas Setup</a></ul><li><a href=#post-processing-steps class="table-of-contents__link toc-highlight">Post-Processing Steps</a><li><a href=#tips-and-warnings class="table-of-contents__link toc-highlight">Tips and Warnings</a><li><a href=#conclusion class="table-of-contents__link toc-highlight">Conclusion</a></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class=footer__title>Docs</div><ul class="footer__items clean-list"><li class=footer__item><a class=footer__link-item href=/bhudocs/docs>Documentation</a></ul></div><div class="col footer__col"><div class=footer__title>Community</div><ul class="footer__items clean-list"><li class=footer__item><a href=https://t.me/surveyorstories target=_blank rel="noopener noreferrer" class=footer__link-item>Telegram<svg width=13.5 height=13.5 aria-hidden=true viewBox="0 0 24 24" class=iconExternalLink_nPIU><path fill=currentColor d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></svg></a><li class=footer__item><a href=https://t.me/surveyor_stories target=_blank rel="noopener noreferrer" class=footer__link-item>Telegram Group<svg width=13.5 height=13.5 aria-hidden=true viewBox="0 0 24 24" class=iconExternalLink_nPIU><path fill=currentColor d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></svg></a><li class=footer__item><a href=https://www.youtube.com/@surveyorstories target=_blank rel="noopener noreferrer" class=footer__link-item>YouTube<svg width=13.5 height=13.5 aria-hidden=true viewBox="0 0 24 24" class=iconExternalLink_nPIU><path fill=currentColor d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></svg></a></ul></div><div class="col footer__col"><div class=footer__title>More</div><ul class="footer__items clean-list"><li class=footer__item><a class=footer__link-item href=/bhudocs/blog>Blog</a><li class=footer__item><a href=https://github.com/surveyorstories target=_blank rel="noopener noreferrer" class=footer__link-item>GitHub<svg width=13.5 height=13.5 aria-hidden=true viewBox="0 0 24 24" class=iconExternalLink_nPIU><path fill=currentColor d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></svg></a></ul></div></div><div class="footer__bottom text--center"><div class=footer__copyright>Copyright © 2024 Surveyor Stories. Built with Docusaurus.</div></div></div></footer></div>
