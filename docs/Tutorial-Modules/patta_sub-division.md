@@ -17,7 +17,7 @@ Before running the algorithm, ensure the following:
 
 1. **Project Consistency**:
 
-   - Both **Village Final Shape File** and **Government Land Shape File** layers must be in the **same projection** to avoid any misalignment during processing. Verify the projection settings of the layers and the project to ensure they match.
+   - Both **Village Final Shape File** and **Cutted Layer** layers must be in the **same projection** to avoid any misalignment during processing. Verify the projection settings of the layers and the project to ensure they match.
    - If needed, adjust the projection by right-clicking the layer and choosing **Layer CRS** or adjusting the **Project CRS** settings.
 
 2. **Save the Project**:
@@ -118,11 +118,12 @@ Before running the algorithm, use the **Create Topo Layers** tool to generate to
 1. **Sub-divided Village Layer**: The final polygon layer containing sub-divisions of land parcels.
 2. **Topo Layers**:
 
-- **TopoPoint**: Points that represent intersections or junctions.
-- **TopoLine**: Lines indicating parcel boundaries.
-- **TopoPolygon**: Polygons representing individual land parcels.
+- TopoPoint
+- TopoLine
+- TopoPolygon
 
 3. **Side Village Frill Lines**: Optional lines marking the boundaries of side villages.
+
 4. **ULPIN Linked Layer**: A layer linking ULPIN numbers with the respective land parcels.
 
 ### A4 and A3 LPM Templates
