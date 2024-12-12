@@ -30,6 +30,18 @@ This Algorithm supports batch process
 
 ### 1. Run the algorithm
 
+:::warning
+
+Ensure any pending edits are committed before running this tool. Layers must have the same CRS for accurate results.
+
+:::
+
+:::warning
+
+Ensure any pending edits are committed before running this tool. Layers must have the same CRS for accurate results.
+
+:::
+
 1. Open the "Identify Changes" under Bhukamatha tool in the QGIS processing toolbox.
 
 2. Select the required input layers.
@@ -47,16 +59,16 @@ This Algorithm supports batch process
 ## Expected Results
 
 - A **Changed Vertices** layer showing all modified points across the two input layers.
-- A **Changed Features** layer showing altered geometries, dynamically named based on the geometry type (e.g., Changed Points, Lines, or Polygons).
+- A **Changed Features** layer showing altered geometries,Temporary outputs are dynamically named for convenience  (e.g., Changed Points, Lines, or Polygons).
 
 ### Error Messages
 
 1. **Reference Layer is Invalid**
-   
+
    - Ensure the selected Reference Layer is a valid vector layer.
 
 2. **Changed Features is Invalid**
-   
+
    - Verify the New Modified Layer is correctly loaded and free of topology errors.
 
 ### Limitations
@@ -67,14 +79,14 @@ This Algorithm supports batch process
 ### Tips for Best Results
 
 1. **Check Topology**
-   
+
    - Validate and clean your shapefiles to ensure accuracy.
    - Use QGIS's built-in topology checker.
 
 2. **Use Spatial Indexing**
-   
+
    - If working with large datasets, ensure spatial indexing is enabled for better performance.
 
 3. **Save Outputs**
-   
+
    - While temporary layers are created by default, saving outputs ensures you retain results after QGIS is closed.

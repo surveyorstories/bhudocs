@@ -97,4 +97,4 @@ The form will save the rest of the data, but selecting a district ensures accura
 
 **Solution:** Check if your QGIS project allows updates. Restart QGIS if necessary.
 
-We hope this guide helps you make the most of **MasterWidget**. If you have further questions, consult your team lead or support contact for assistance.
+We hope this guide helps you make the most of **Master Panel**. If you have further questions, consult your team lead or support contact for assistance.
