@@ -68,7 +68,7 @@ Before running the algorithm, ensure that:
   - **TopoPoint**: Point layer for topographic features.
   - **TopoLine**: Line layer for topographic features.
   - **TopoPolygon**: Polygon layer for topographic features.
-  - These layers are necessary for proper visualization and representation of topographic data in the generated map.
+  - These layers are necessary for proper visualization and representation of topographic data in the generated map. for detailed instructions visit [How to create Topo Layers](./tool_set#1-topo-layers)
 
 ### 2. Prepare Your Data
 

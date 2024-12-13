@@ -31,6 +31,7 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
+ 
   future: {
     experimental_faster: true,
   },
@@ -104,10 +105,24 @@ const config = {
       }),
     ],
   ],
-
+  themes: [
+    [
+      "@easyops-cn/docusaurus-search-local",
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        hashed: true,
+        searchBarShortcutHint: false,
+        language: ["en", ],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+      }),
+    ],
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+
+    
       // Replace with your project's social card
       image: "img/logo_light.svg",
       announcementBar: {
@@ -139,6 +154,11 @@ const config = {
         
         items: [
           {
+            type: 'search',
+            position: 'right',
+            
+          },
+          {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "right",
@@ -149,6 +169,7 @@ const config = {
             label: "Faq's",
             position: "right",
           },
+         
           {
             href: "/blog",
             label: "Blog",

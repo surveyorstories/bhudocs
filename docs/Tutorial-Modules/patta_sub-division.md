@@ -71,15 +71,12 @@ Before running the algorithm, use the **Create Topo Layers** tool to generate to
 
 1. **Create Topo Layers**:
 
-- In the QGIS interface, open the **Tool Set Panel**.
-
-- Click on **Create Topo Layers** to generate:
+- **Before running the algorithm**, use the **Create Topo Layers** tool from the toolset. This tool generates the following layers:
   
-  - **TopoPoint**
-  - **TopoLine**
-  - **TopoPolygon**
-  
-  more detailed instructions about the Create Topo Layers at [Tool Set](./tool_set#1-topo-layers) Page
+  - **TopoPoint**: Point layer for topographic features.
+  - **TopoLine**: Line layer for topographic features.
+  - **TopoPolygon**: Polygon layer for topographic features.
+  - These layers are necessary for proper visualization and representation of topographic data in the generated map. for detailed instructions visit [How to create Topo Layers](./tool_set#1-topo-layers)
 
 2. **Validate Topo Layers**:
 
