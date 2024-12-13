@@ -38,6 +38,14 @@ const config = {
     // "plugin-image-zoom",
     [
     
+      "posthog-docusaurus",
+      {
+        apiKey: "phc_tGkbGrEgfIUH1Cz0NtJbFEVfizpQcUoGCJzAyuepR1a",
+        appUrl: "https://us.i.posthog.com", // optional, defaults to "https://us.i.posthog.com"
+        enableInDevelopment: false, // optional
+      },
+
+
       '@docusaurus/plugin-pwa',
       {
         debug: true,
