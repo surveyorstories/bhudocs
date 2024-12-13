@@ -36,22 +36,16 @@ const config = {
   },
   plugins: [
 
-    [
-      '@docusaurus/plugin-google-gtag',
-      {
-        trackingID: 'GTM-N7T4XNQX',
-        anonymizeIP: true,
-      },
-    ],
 
-    [
-      "posthog-docusaurus",
-      {
-        apiKey: "phc_tGkbGrEgfIUH1Cz0NtJbFEVfizpQcUoGCJzAyuepR1a",
-        appUrl: "https://us.i.posthog.com", // optional, defaults to "https://us.i.posthog.com"
-        enableInDevelopment: false, // optional
-      },
-    ],
+
+    // [
+    //   "posthog-docusaurus",
+    //   {
+    //     apiKey: "phc_tGkbGrEgfIUH1Cz0NtJbFEVfizpQcUoGCJzAyuepR1a",
+    //     appUrl: "https://us.i.posthog.com", // optional, defaults to "https://us.i.posthog.com"
+    //     enableInDevelopment: false, // optional
+    //   },
+    // ],
 
     [
       '@docusaurus/plugin-pwa',
@@ -76,7 +70,7 @@ const config = {
           {
             tagName: 'meta',
             name: 'theme-color',
-            content: 'rgb(37, 87, 194)',
+            content: 'rgb(37, 194, 160)',
           },
         ],
       },
