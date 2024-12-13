@@ -35,17 +35,25 @@ const config = {
     experimental_faster: true,
   },
   plugins: [
-    // "plugin-image-zoom",
+
     [
-    
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'GTM-N7T4XNQX',
+        anonymizeIP: true,
+      },
+    ],
+
+    [
       "posthog-docusaurus",
       {
         apiKey: "phc_tGkbGrEgfIUH1Cz0NtJbFEVfizpQcUoGCJzAyuepR1a",
         appUrl: "https://us.i.posthog.com", // optional, defaults to "https://us.i.posthog.com"
         enableInDevelopment: false, // optional
       },
+    ],
 
-
+    [
       '@docusaurus/plugin-pwa',
       {
         debug: true,
@@ -68,10 +76,11 @@ const config = {
           {
             tagName: 'meta',
             name: 'theme-color',
-            content: 'rgb(37, 194, 160)',
+            content: 'rgb(37, 87, 194)',
           },
         ],
       },
+     
     ],
   ],
 
