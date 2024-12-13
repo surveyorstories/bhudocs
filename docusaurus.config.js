@@ -86,6 +86,8 @@ const config = {
         docs: {
           routeBasePath: "/docs",
           sidebarPath: "./sidebars.js",
+          showLastUpdateAuthor: true, // Optional: Show the author who made the last update
+          showLastUpdateTime: true, 
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/surveyorstories/bhudocs/edit/main",
