@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://github.com/bhudocs/blog</id>
+    <id>https://surveyorstories.github.io/bhudocs/blog</id>
     <title>Surveyor stories Blog</title>
-    <updated>2024-12-14T14:44:58.000Z</updated>
+    <updated>2024-12-14T16:53:50.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://github.com/bhudocs/blog"/>
+    <link rel="alternate" href="https://surveyorstories.github.io/bhudocs/blog"/>
     <subtitle>Surveyor stories Blog</subtitle>
-    <icon>https://github.com/bhudocs/img/favicon.ico</icon>
+    <icon>https://surveyorstories.github.io/bhudocs/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Markdown blog truncation example]]></title>
-        <id>https://github.com/bhudocs/blog/first_post</id>
-        <link href="https://github.com/bhudocs/blog/first_post"/>
-        <updated>2024-12-14T14:44:58.000Z</updated>
+        <id>https://surveyorstories.github.io/bhudocs/blog/first_post</id>
+        <link href="https://surveyorstories.github.io/bhudocs/blog/first_post"/>
+        <updated>2024-12-14T16:53:50.000Z</updated>
         <summary type="html"><![CDATA[All these will be part of the blog post summary.]]></summary>
         <content type="html"><![CDATA[<p>All these will be part of the blog post summary.</p>
 <p>But anything from here on down will not be.</p>]]></content>
