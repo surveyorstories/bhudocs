@@ -48,14 +48,19 @@ const config = {
     //   },
     // ],
 
+    
+
+
     [
       '@docusaurus/plugin-pwa',
       {
-        debug: true,
+        debug: false,
         offlineModeActivationStrategies: [
-          'appInstalled',
-          'standalone',
-          'queryString',
+            'standalone', // When the site is accessed in standalone mode
+            'appInstalled', // When the app is installed as a PWA
+            
+            'queryString', // When a specific query string is added to the URL
+          
         ],
         pwaHead: [
           {
@@ -102,8 +107,21 @@ const config = {
         theme: {
           customCss: "./src/css/custom.css",
         },
+        sitemap: {
+          lastmod: 'date',
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+          createSitemapItems: async (params) => {
+            const {defaultCreateSitemapItems, ...rest} = params;
+            const items = await defaultCreateSitemapItems(rest);
+            return items.filter((item) => !item.url.includes('/page/'));
+          },
+        },
       }),
     ],
+    
   ],
   themes: [
     [
