@@ -13,7 +13,7 @@ const config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://github.com",
+  url: "https://surveyorstories.github.io",
 
   baseUrl: "/bhudocs",
   deploymentBranch: "gh-pages",
@@ -47,9 +47,6 @@ const config = {
     //     enableInDevelopment: false, // optional
     //   },
     // ],
-
-    
-
 
     [
       '@docusaurus/plugin-pwa',
@@ -129,6 +126,7 @@ const config = {
       /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
       ({
         hashed: true,
+        indexPages: true,
         searchBarShortcutHint: false,
         language: ["en", ],
         highlightSearchTermsOnTargetPage: true,
