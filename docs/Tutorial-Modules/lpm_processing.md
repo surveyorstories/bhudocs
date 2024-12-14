@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+slug: lpmprocessing
 ---
 
 # LPM Processing
@@ -71,7 +72,7 @@ The model follows these primary steps:
   - **TopoPoint**: Point layer for topographic features.
   - **TopoLine**: Line layer for topographic features.
   - **TopoPolygon**: Polygon layer for topographic features.
-  - These layers are necessary for proper visualization and representation of topographic data in the generated map. for detailed instructions visit [How to create Topo Layers](./tool_set#1-topo-layers)
+  - These layers are necessary for proper visualization and representation of topographic data in the generated map. for detailed instructions visit [**How to create Topo Layers**](./toolset#1-topo-layers)
 
 ### ### 2. Input Parameters
 

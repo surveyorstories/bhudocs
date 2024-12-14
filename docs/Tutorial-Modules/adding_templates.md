@@ -1,5 +1,6 @@
 ---
 sidebar_position: 8
+slug: addingtemplates
 ---
 
 # Add Layouts to Project

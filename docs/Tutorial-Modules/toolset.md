@@ -6,7 +6,7 @@ keywords:
   - tool panel
   - tool_set
 tags: [toolset,toolpanel,topolayers,basemaps]
-
+slug: toolset
 ---
 
 # Tool Set

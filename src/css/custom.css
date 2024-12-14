@@ -171,3 +171,34 @@ html[data-theme="dark"] {
     scale: 1 1;
   }
 }
+
+
+/* feature card css*/
+
+
+.card-icon {
+  font-size: 3em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card-description {
+  font-size: 1em;
+  color: #666;
+}
+.feature-cards {
+  display: flex;
+  flex-wrap: wrap; /* To wrap cards to the next line if needed */
+  justify-content: space-between; /* Adjust spacing between cards */
+}
+
+.feature-card {
+  flex: 1; /* Ensure cards take equal width */
+  /* Other styles as before */
+}

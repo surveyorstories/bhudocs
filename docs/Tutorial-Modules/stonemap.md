@@ -5,6 +5,7 @@ keywords:
   - How to prepare Stone Map
   - Stone Map
 tags: [stonemap,final deliverables]
+slug: stonemap
 ---
 
 # Stone Map

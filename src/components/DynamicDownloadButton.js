@@ -9,7 +9,7 @@ const DynamicDownloadButton = () => {
     // Fetch the latest release asset download link from GitHub
     axios
       .get(
-        "https://api.github.com/repos/surveyorstories/bhukamatha/releases/latest"
+        "https://api.github.com/repos/opengisch/QField/releases/latest"
       )
       .then((response) => {
         const latestAsset = response.data.assets[0]; // Assuming the first asset is the one you want
