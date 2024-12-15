@@ -4,7 +4,7 @@
         <title>Surveyor stories Blog</title>
         <link>https://surveyorstories.github.io/bhudocs/blog</link>
         <description>Surveyor stories Blog</description>
-        <lastBuildDate>Sat, 14 Dec 2024 16:53:50 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 15 Dec 2024 17:58:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Markdown blog truncation example]]></title>
             <link>https://surveyorstories.github.io/bhudocs/blog/first_post</link>
             <guid>https://surveyorstories.github.io/bhudocs/blog/first_post</guid>
-            <pubDate>Sat, 14 Dec 2024 16:53:50 GMT</pubDate>
+            <pubDate>Sun, 15 Dec 2024 17:58:54 GMT</pubDate>
             <description><![CDATA[All these will be part of the blog post summary.]]></description>
             <content:encoded><![CDATA[<p>All these will be part of the blog post summary.</p>
 <p>But anything from here on down will not be.</p>]]></content:encoded>
