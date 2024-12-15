@@ -3,7 +3,7 @@ sidebar_position: 8
 slug: addingtemplates
 ---
 
-# Add Layouts to Project
+# Adding Layouts(Templates) to Project
 
 Shortcut to launch **Add Layouts to Project**
 

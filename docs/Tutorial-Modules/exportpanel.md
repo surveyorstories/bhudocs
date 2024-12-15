@@ -21,7 +21,7 @@ The **From** and **To** fields are used to filter maps for **Atlas-enabled layou
 - **To**: Specifies the upper limit of the range for filtering maps.
 
 > **Note**:
->
+> 
 > - The **From** and **To** fields accept only **numeric values**.
 > - For non-Atlas layouts, these fields are ignored, and all maps will be exported as defined by the layout.
 
