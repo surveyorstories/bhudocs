@@ -112,6 +112,7 @@ html[data-theme="dark"] {
 }
 
 .accordion-title {
+  font-family: 'Montserrat';
   margin: 0;
   font-size: 1rem;
 }

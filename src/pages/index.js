@@ -49,25 +49,29 @@ export default function Home() {
           <Accordion />
         </section>
         <section className="feature-section">
-  <h2>Key Features of Bhukamtha</h2>
-  <div className="feature-cards">
-    <FeatureCard
-      title="Earthquake Hazard Assessment"
-      description="Assess seismic hazards using various methods and parameters."
-      icon={<i className="fa fa-globe"></i>} // Replace with appropriate icon class
-    />
-    <FeatureCard
-      title="Vulnerability Analysis"
-      description="Analyze building vulnerability and identify potential damage."
-      icon={<i className="fa fa-building"></i>}
-    />
-    <FeatureCard
-      title="Risk Assessment"
-      description="Evaluate the overall risk to communities and infrastructure."
-      icon={<i className="fa fa-exclamation-triangle"></i>}
-    />
-    {/* Add more features as needed */}
-  </div>
+  {/* <h2>Key Features of Bhukamtha</h2>
+  <div className="features-grid">
+  <FeatureCard 
+    title="Quick Setup"
+    description="Get up and running in no time with our easy-to-follow setup guide."
+    icon="🚀"
+  />
+  <FeatureCard 
+    title="High Performance"
+    description="Optimized for fast and smooth operation under all conditions."
+    icon="⚡"
+  />
+  <FeatureCard 
+    title="Highly Customizable"
+    description="Tailor the system to your exact needs with a wide range of settings."
+    icon="⚙️"
+  />
+  <FeatureCard 
+    title="Robust Security"
+    description="Built with the latest security features to keep your data safe."
+    icon="🔒"
+  />
+</div> */}
 </section>
       </main>
     </Layout>
