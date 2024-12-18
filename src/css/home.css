@@ -67,7 +67,7 @@
 .download-button:hover .dropdown-content {
   display: flex;
   flex-flow: column;
-  justify-content: center;
+  justify-content: top;
 
   z-index: 1;
 }
