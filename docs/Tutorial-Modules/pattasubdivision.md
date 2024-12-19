@@ -36,7 +36,7 @@ Before running the algorithm, ensure the following:
 | **Area in Acres Column**                  | Column containing area information in acres for land parcels.                                 | Field (Any)              |
 | **Area in Hectares Column**               | Column containing area information in hectares for land parcels.                              | Field (Any)              |
 | **Create Side Villages Polygon Layer**    | Option to generate a polygon layer for side villages.                                         | Boolean                  |
-| **Frill Line Length (Multi Ring Length)** | The length of the frill line to be applied around side village boundaries.                    | Distance (1-20)          |
+| **Frill Line Length (Multi Ring Length)** | The length of the frill line to be applied around Land Parcel boundaries.                    | Distance (1-20)          |
 | **RLR/ROR File**                          | Excel file containing Resurvey Land Register (RLR) or Records of Rights (ROR).                | File (*.xlsx)            |
 | **Select File Type (RLR/ROR)**            | Dropdown to specify the type of file selected (either RLR or ROR).                            | Enum                     |
 | **ULPIN Layer**                           | CSV file containing Unique Land Parcel Identification Numbers (ULPIN) data.                   | File (*.csv)             |
