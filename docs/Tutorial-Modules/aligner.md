@@ -1,4 +1,4 @@
-# **User Documentation for Align Tool in QGIS**
+# Aligner Tool
 
 ## **Overview**
 

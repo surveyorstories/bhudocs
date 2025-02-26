@@ -2,8 +2,9 @@
 sidebar_position: 12
 keywords:
   - docs
-  - docusaurus
-tags: [dousaurus]
+  - bhukamatha
+  - userguide
+tags: [bhukamtha,qgis]
 
 ---
 

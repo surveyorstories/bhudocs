@@ -1,14 +1,14 @@
-### **User Documentation for PointInPolygonTool**
+# Point In Polygon Tool
 
-#### Overview
+## Overview
 
-The `PointInPolygonTool` is a QGIS plugin tool designed to help users create points on the boundary of a polygon layer. It allows users to:
+The `PointInPolygonTool` is a QGIS tool designed to help users create points on the boundary of a polygon layer. It allows users to:
 
 - Snap points to the boundary of a polygon.
 - Create a new point at a specified distance between two clicked points on the polygon boundary.
 - Visualize snapping and preview points using rubber bands.
 
-#### Key Features
+### Key Features
 
 - **Snapping to Polygon Boundary**: Automatically snaps points to the nearest boundary of the selected polygon layer.
 - **Distance-Based Point Creation**: Allows users to specify a distance to create a new point between two clicked points.

@@ -19,10 +19,7 @@ The Auto Save & Backup tool is a QGIS plugin designed to automatically back up y
 
 ## Setup Instructions
 
-1. **Installation:**  
-   Place the plugin folder in your QGIS plugins directory. Restart QGIS and enable the plugin via the Plugin Manager.
-
-2. **Initial Configuration:**  
+1. **Initial Configuration:**  
    - On launching the plugin, a default backup folder (`QGIS_Project_Backups` in your home directory) is set.  
    - Adjust the backup interval using the provided spin box.
    - Choose your desired backup mode:
@@ -30,7 +27,7 @@ The Auto Save & Backup tool is a QGIS plugin designed to automatically back up y
      - **Multiple Backups:** Saves backups in new timestamped folders.
    - In Multiple Backups mode, specify the maximum number of backups to retain.
 
-3. **Layer Selection (Optional):**  
+2. **Layer Selection (Optional):**  
    - The plugin displays current vector layers in your project.  
    - Check the boxes beside layers you wish to include in the backup.  
    - Use the "Select All" checkbox to quickly include all layers.
