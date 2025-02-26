@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbhukamatha=self.webpackChunkbhukamatha||[]).push([["106"],{4200:function(t){t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Markdown blog truncation example","permalink":"/bhudocs/blog/first_post","unlisted":false,"date":"2025-02-26T17:38:34.000Z"}]}')}}]);
